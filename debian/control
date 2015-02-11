@@ -1,0 +1,38 @@
+Source: python-xstatic-angular-bootstrap
+Section: python
+Priority: optional
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>
+Build-Depends: debhelper (>= 9), dh-python, python-setuptools, python-all (>= 2.6.6-3~), python3-setuptools, python3-all
+Standards-Version: 3.9.6
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-xstatic-angular-bootstrap.git
+Vcs-Git: git://anonscm.debian.org/openstack/python-xstatic-angular-bootstrap.git
+Homepage: https://pypi.python.org/pypi/XStatic-Angular-Bootstrap
+
+Package: python-xstatic-angular-bootstrap
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: ${python:Depends}, ${misc:Depends}
+Suggests: python-xstatic-angular-bootstrap-doc
+Description: Angular-Bootstrap XStatic support - Python 2.x
+ XStatic is a Python web development tool for handling required static data
+ files from external projects, such as CSS, images, and JavaScript. It provides
+ a lightweight infrastructure to manage them via Python modules that your app
+ can depend on in a portable, virtualenv-friendly way instead of using embedded
+ copies.
+ .
+ This package contains the Angular-Bootstrap support as a Python 2.x module.
+
+Package: python3-xstatic-angular-bootstrap
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: ${python3:Depends}, ${misc:Depends}
+Suggests: python-xstatic-angular-bootstrap-doc
+Description: Angular-Bootstrap XStatic support - Python 3.x
+ XStatic is a Python web development tool for handling required static data
+ files from external projects, such as CSS, images, and JavaScript. It provides
+ a lightweight infrastructure to manage them via Python modules that your app
+ can depend on in a portable, virtualenv-friendly way instead of using embedded
+ copies.
+ .
+ This package contains the Angular-Bootstrap support as a Python 3.x module.
