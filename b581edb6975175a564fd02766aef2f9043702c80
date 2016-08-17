@@ -1,0 +1,9 @@
+Code-Review+1: Maxime Vidori <mvidori@redhat.com>
+Code-Review+2: David Lyle <dklyle0@gmail.com>
+Workflow+1: David Lyle <dklyle0@gmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Tue, 05 May 2015 22:15:42 +0000
+Reviewed-on: https://review.openstack.org/180209
+Project: openstack/deb-python-xstatic-angular-bootstrap
+Branch: refs/heads/master
