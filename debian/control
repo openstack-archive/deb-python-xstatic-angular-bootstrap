@@ -11,8 +11,8 @@ Build-Depends: debhelper (>= 9),
                python3-setuptools,
 Build-Conflicts: python-xstatic, python3-xstatic
 Standards-Version: 3.9.6
-Vcs-Browser: https://anonscm.debian.org/cgit/openstack/python-xstatic-angular-bootstrap.git/
-Vcs-Git: https://anonscm.debian.org/git/openstack/python-xstatic-angular-bootstrap.git
+Vcs-Browser: https://git.openstack.org/cgit/openstack/deb-python-xstatic-angular-bootstrap?h=debian%2Fnewton
+Vcs-Git: https://git.openstack.org/openstack/deb-python-xstatic-angular-bootstrap -b debian/newton
 Homepage: https://pypi.python.org/pypi/XStatic-Angular-Bootstrap
 
 Package: python-xstatic-angular-bootstrap
